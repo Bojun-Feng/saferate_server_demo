@@ -4,7 +4,7 @@ Instructions (assuming npm and node are installed):
 1. clone the repository
 2. cd into root directory
 3. run `npm i` to install libraries
-4. run `npm start` to start the server
+4. run `npm run dev` to start the server
 
 To test the model, open another terminal and run:
 ```
