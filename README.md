@@ -20,3 +20,16 @@ curl -X POST http://localhost:1111/predict \
      -d '{"arg1": 2, "arg2": 1}'
 ```
 
+Please note that you need to have the system environment set up with OpenAI API key
+
+Before running `npm run dev` to start the server, run:
+```
+export OPENAI_API_KEY=[your api key]
+```
+
+Then, print the api key in the terminal with the following test:
+```
+echo $OPENAI_API_KEY
+```
+
+You should see the API Key show up. Now run `npm run dev` and the chatbot should work!

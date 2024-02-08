@@ -1,7 +1,6 @@
 // Import necessary modules with TypeScript syntax
 import express, { Express } from "express";
 import cors from "cors";
-import mongoose from "mongoose";
 import requestsRouter from "./requests"; // Assume TypeScript conversion for this import
 
 // Create an Express application
